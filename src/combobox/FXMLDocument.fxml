@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="293.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="combobox.FXMLDocumentController">
+   <children>
+      <ComboBox fx:id="CBAlumnos" layoutX="101.0" layoutY="47.0" onAction="#seleccionarAlumnos" prefWidth="150.0" />
+      <Label fx:id="labelAlumnos" layoutX="273.0" layoutY="51.0" onDragDetected="#seleccionarAlumnos" text="Alumnos atrapaos" />
+      <ComboBox fx:id="CBprofesores" layoutX="101.0" layoutY="101.0" onAction="#seleccionarProfesor" prefWidth="150.0" />
+      <ComboBox fx:id="CBciclos" layoutX="101.0" layoutY="157.0" onAction="#seleccionarCiclo" prefWidth="150.0" />
+      <Label layoutX="273.0" layoutY="105.0" text="Label" />
+      <Label layoutX="273.0" layoutY="161.0" text="Label" />
+   </children>
+</AnchorPane>
